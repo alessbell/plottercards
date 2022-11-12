@@ -10,7 +10,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Plotter Cards: Coming Soon!</h1>
+        {/* <h1 className={styles.title}>Plotter Cards: Coming Soon!</h1> */}
+        <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+        <iframe
+          className="airtable-embed airtable-dynamic-height"
+          src="https://airtable.com/embed/shra2N4WswqiOz7gr?backgroundColor=green"
+          width="100%"
+          height="786"
+          style={{
+            background: 'transparent',
+            border: 'none'
+          }}
+        ></iframe>
       </main>
 
       <footer className={styles.footer}>
