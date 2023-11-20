@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Alessia's Plotter Cards</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -18,8 +18,8 @@ export default function Home() {
           width="100%"
           height="786"
           style={{
-            background: 'transparent',
-            border: 'none'
+            background: "transparent",
+            border: "none",
           }}
         ></iframe>
       </main>
